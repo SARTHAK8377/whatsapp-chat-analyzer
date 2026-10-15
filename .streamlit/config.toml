@@ -1,0 +1,19 @@
+# Used when running "streamlit run whatsapp_analyzer.py" from this folder.
+[server]
+address = "localhost"      # only this computer can open the app
+
+[browser]
+gatherUsageStats = false   # no usage statistics sent to Streamlit
+
+[logger]
+hideWelcomeMessage = true  # no Streamlit promo messages or pop-ups
+
+[client]
+toolbarMode = "minimal"    # hides the "Deploy" (publish online) button
+
+[theme]
+base = "dark"
+primaryColor = "#53BDEB"
+backgroundColor = "#0B1A1E"
+secondaryBackgroundColor = "#12262B"
+textColor = "#E7EEEC"
