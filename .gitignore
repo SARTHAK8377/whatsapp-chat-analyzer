@@ -1,0 +1,12 @@
+# Local tool settings
+.claude/
+
+# Generated reports (rebuild with whatsapp_analyzer.py)
+*_report.html
+
+# Build output
+build/
+dist/
+*.spec
+*.exe
+__pycache__/
