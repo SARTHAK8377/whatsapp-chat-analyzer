@@ -1,9 +1,9 @@
 """WhatsApp chat analyzer - fully local, nothing leaves your machine.
 
 Usage:
-    py -3.12 whatsapp_analyzer.py                   -> opens the app in your browser (upload button)
-    py -3.12 whatsapp_analyzer.py chat.zip          -> writes chat_report.html directly
-    py -3.12 whatsapp_analyzer.py chat.txt --gap 6 --from 2024-01-01 --to 2024-12-31 --anon -o report.html
+    python whatsapp_analyzer.py                     -> opens the app in your browser (upload button)
+    python whatsapp_analyzer.py chat.zip            -> writes chat_report.html directly
+    python whatsapp_analyzer.py chat.txt --gap 6 --from 2024-01-01 --to 2024-12-31 --anon -o report.html
 
 Reads a WhatsApp export (.txt or .zip, "without media") and shows interactive
 charts, or writes a single offline HTML report. Each analysis is one function
